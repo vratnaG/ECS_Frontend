@@ -1,0 +1,33 @@
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 2px 0px 4px 0px;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-container {
+  background-color: rgb(201, 250, 137);
+}
+
+.language {
+  margin: 0px 5px 0px 0px;
+}
+
+.price {
+  background-color: rgb(80, 221, 75);
+}
+.cart {
+  background-color: orange;
+  cursor: pointer;
+}

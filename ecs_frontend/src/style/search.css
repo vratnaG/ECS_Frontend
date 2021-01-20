@@ -1,0 +1,12 @@
+.close {
+  display: flex;
+}
+
+.cards-container {
+  margin: 4px 2px 4px 2px;
+}
+
+.search-icon {
+  display: flex;
+  flex-direction: row;
+}

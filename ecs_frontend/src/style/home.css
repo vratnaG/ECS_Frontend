@@ -1,0 +1,31 @@
+.pagination {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5px 0px 5px 0px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0px 10px 0px;
+}
+
+.cards-container {
+  margin: 4px 2px 4px 2px;
+}
+
+.next,
+.prev {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.search {
+  margin: 6px 200px 8px 400px;
+}
+
+.cart-search {
+  display: flex;
+  flex-direction: row;
+}

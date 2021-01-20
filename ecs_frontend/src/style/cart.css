@@ -1,0 +1,16 @@
+.cart-container {
+  background-color: rgb(107, 215, 241);
+}
+
+.close {
+  display: flex;
+}
+
+.del {
+  background-color: red;
+}
+
+.total {
+  display: flex;
+  justify-content: center;
+}
