@@ -6,17 +6,22 @@ export var CartStatus = (function () {
     }
 
     function Added(data) {
-        return status[data.bookID] = data
+        status = [...status, data]
     }
 
+    function Deleted(data) {
+        status = data
+    }
 
     function getStatus() {
+        console.log(status)
         return status
     }
 
     return { // public interface
         initStatus,
         Added,
+        Deleted,
         getStatus
     };
 })();

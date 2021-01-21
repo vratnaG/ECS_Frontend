@@ -6,7 +6,8 @@ function Cart() {
     const history = useHistory()
     const [data, setData] = useState(CartStatus.getStatus())
     function ItemRemove(id) {
-        setData(data.filter((data) => data.bookID != id))
+        CartStatus.Deleted(data.filter((data) => data.bookID != id))
+        setData(CartStatus.getStatus())
     }
 
     return (
